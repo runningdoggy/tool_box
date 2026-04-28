@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local input data and transcription outputs
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+*.tsv
+*.log
+output*/
+demo_output*/
+team_compare_output/
+
+# URL lists may contain private or tokenized links.
+*.txt
+!requirements.txt
+!sample_urls.example.txt
+
+# Temporary Excel lock files
+~$*
